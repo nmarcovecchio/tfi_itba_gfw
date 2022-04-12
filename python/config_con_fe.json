@@ -1,0 +1,22 @@
+{
+	"config_trollers": {
+		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/trollers_fe.csv",
+		"output_label": "trollers_fe"
+	},
+	"config_trawlers": {
+		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/trawlers_fe.csv",
+		"output_label": "trawlers_fe"
+	},
+    "config_longline": {
+		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/drifting_longlines_fe.csv",
+		"output_label": "drifting_longlines_fe"
+	},
+    "config_purse_seines": {
+		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/purse_seines_fe.csv",
+		"output_label": "purse_seines_fe"
+	}
+}
