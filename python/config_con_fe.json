@@ -1,4 +1,9 @@
 {
+	"config_fixed_gear": {
+		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/fixed_gear_fe.csv",
+		"output_label": "fixed_gear_fe"
+	},
 	"config_trollers": {
 		"notebook": "notebooks/tfi_con_FeatureEngenieering.ipynb",
 		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/trollers_fe.csv",
