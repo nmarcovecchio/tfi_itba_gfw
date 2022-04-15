@@ -1,13 +1,13 @@
 {
-	"config_fixed_gear": {
-		"notebook": "notebooks/feature_engineering.ipynb",
-		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/fixed_gear.csv",
-		"output_label": "fixed_gear"
-	},
 	"config_trollers": {
 		"notebook": "notebooks/feature_engineering.ipynb",
 		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/trollers.csv",
 		"output_label": "trollers"
+	},
+	"config_fixed_gear": {
+		"notebook": "notebooks/feature_engineering.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/fixed_gear.csv",
+		"output_label": "fixed_gear"
 	},
 	"config_trawlers": {
 		"notebook": "notebooks/feature_engineering.ipynb",
