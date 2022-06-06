@@ -1,0 +1,18 @@
+En limpio:
+
+
+Trollers ->
+
+param_test ={'num_leaves': sp_randint(50, 800), 
+             'min_child_samples': sp_randint(100, 500), 
+             'min_child_weight': [1e-7,1e-6,1e-5, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4],
+             'subsample': sp_uniform(loc=0.2, scale=0.8), 
+             'colsample_bytree': sp_uniform(loc=0.4, scale=0.6),
+             'reg_alpha': [0,1e-2 , 1e-3, 1e-1, 1, 2, 5, 7, 10, 50, 100],
+             'reg_lambda': [0,1e-2,1e-3, 1e-1, 1, 5, 10, 20, 50, 100]}
+n_HP_points_to_test = 200*2*10
+LightGBM_auc	0.932	0.742	0.971	0.827 
+Best score reached: 0.9775506448849097 with params: {'colsample_bytree': 0.960778977258131, 'min_child_samples': 110, 'min_child_weight': 1e-05, 'num_leaves': 494, 'reg_alpha': 0.001, 'reg_lambda': 0.001, 'subsample': 0.5565695636216966} 
+clf_final.fit(X_train, y_train, **fit_params, callbacks=[lgb.reset_parameter(learning_rate=learning_rate_010_decay_power_0995)])
+
+

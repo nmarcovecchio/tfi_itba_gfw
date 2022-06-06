@@ -65,13 +65,13 @@ args = parser.parse_args()
 config_file = args.config_file
 run_mode = args.run_mode
 
-#print(config_file)
+print(config_file)
 #print(run_mode)
 # read in config_file
 with open(config_file) as json_file:  
     configs = json.load(json_file)
+    print(configs)
 
-        
 if __name__ == '__main__':
 
     # loop over each config
@@ -96,3 +96,5 @@ if __name__ == '__main__':
 #Puedo correr multiples instancias con diferentes config files.
 
 #python run_nb_batch.py --config_file=config_con_fe.json
+
+#python run_nb_batch.py --config_file=config_lgbm_grid.json
