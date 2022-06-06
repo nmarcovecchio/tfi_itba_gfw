@@ -1,0 +1,27 @@
+{
+	"config_fixed_gear": {
+		"notebook": "notebooks/tfi_lgbm_optuna.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/fixed_gear_fe_recortado.csv",
+		"output_label": "fixed_gear_optuna"
+	},
+	"config_trollers": {
+		"notebook": "notebooks/tfi_lgbm_optuna.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/trollers_fe_recortado.csv",
+		"output_label": "trollers_optuna"
+	},
+	"config_trawlers": {
+		"notebook": "notebooks/tfi_lgbm_optuna.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/trawlers_fe_recortado.csv",
+		"output_label": "trawlers_optuna"
+	},
+    "config_longline": {
+		"notebook": "notebooks/tfi_lgbm_optuna.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/drifting_longlines_fe_recortado.csv",
+		"output_label": "drifting_longlines_optuna"
+	},
+    "config_purse_seines": {
+		"notebook": "notebooks/tfi_lgbm_optuna.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/github/df_procesado/purse_seines_fe_recortado.csv",
+		"output_label": "purse_seines_optuna"
+	}
+}

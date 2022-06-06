@@ -98,3 +98,5 @@ if __name__ == '__main__':
 #python run_nb_batch.py --config_file=config_con_fe.json
 
 #python run_nb_batch.py --config_file=config_lgbm_grid.json
+
+#python run_nb_batch.py --config_file=config_lgbm_optuna.json
