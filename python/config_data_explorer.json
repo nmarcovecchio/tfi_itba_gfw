@@ -1,5 +1,4 @@
 {
-	
 	"config_fixed_gear": {
 		"notebook": "notebooks/data_explorer.ipynb",
 		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/fixed_gear.csv",
