@@ -99,4 +99,9 @@ if __name__ == '__main__':
 
 #python run_nb_batch.py --config_file=config_lgbm_grid.json
 
+
+#python run_nb_batch.py --config_file=config_feature_engenieering.json
+
 #python run_nb_batch.py --config_file=config_lgbm_optuna.json
+
+#python run_nb_batch.py --config_file=config_recortar_dataset.json
