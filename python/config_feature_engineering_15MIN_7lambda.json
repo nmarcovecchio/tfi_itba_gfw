@@ -1,0 +1,27 @@
+{
+	"config_trollers": {
+		"notebook": "notebooks/feature_engineering_15MIN_7lambda.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/trollers.csv",
+		"output_label": "trollers"
+	},
+	"config_fixed_gear": {
+		"notebook": "notebooks/feature_engineering_15MIN_7lambda.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/fixed_gear.csv",
+		"output_label": "fixed_gear"
+	},
+	"config_trawlers": {
+		"notebook": "notebooks/feature_engineering_15MIN_7lambda.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/trawlers.csv",
+		"output_label": "trawlers"
+	},
+    "config_longline": {
+		"notebook": "notebooks/feature_engineering_15MIN_7lambda.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/drifting_longlines.csv",
+		"output_label": "drifting_longlines"
+	},
+    "config_purse_seines": {
+		"notebook": "notebooks/feature_engineering_15MIN_7lambda.ipynb",
+		"data_path": "C:/Users/nico_/Desktop/ITBA/TFI/global fishing watch/dataset/purse_seines.csv",
+		"output_label": "purse_seines"
+	}
+}

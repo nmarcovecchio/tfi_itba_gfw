@@ -105,3 +105,9 @@ if __name__ == '__main__':
 #python run_nb_batch.py --config_file=config_lgbm_optuna.json
 
 #python run_nb_batch.py --config_file=config_recortar_dataset.json
+
+#python run_nb_batch.py --config_file=config_lgbm_optuna_15MIN_7lambda
+
+#python run_nb_batch.py --config_file=config_feature_engineering_15MIN_7lambda.json
+
+#python run_nb_batch.py --config_file=config_tfi_ONLY_lgbm_optuna_15MIN_7lambda.json
